@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Background from './components/Background';
+import Elements from './components/Elements';
+import Flexbox from './components/Flexbox';
+import Login from './components/Login';
+import Hover from './components/Hover';
+import Position from './components/Position';
+import MediaQuery from './components/MediaQuery';
+import Grid from './components/Grid';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Elements /> */}
+      {/* <Background /> */}
+      {/* <Flexbox /> */}
+      {/* <Login />*/}
+      {/* <Hover /> */}
+      {/* <Position /> */}
+      {/* <MediaQuery /> */}
+      {/* <Grid /> */}
+      <Portfolio />
+    </>
   );
 }
 
